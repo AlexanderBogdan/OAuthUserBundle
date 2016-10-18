@@ -1,0 +1,30 @@
+{
+  "name" : "obogdan/oauthuserbundle",
+  "description" : "OAuthUserBundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "oauthuser",
+    "email" : "olexandr.bogdan@gmail.com"
+  }],
+  "keywords" : [
+    "OAuthUserBundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Obogdan\\OAuthUserBundle" : ""
+    }
+  },
+  "target-dir" : "Obogdan/OAuthUserBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0-dev"
+    }
+  }
+}
