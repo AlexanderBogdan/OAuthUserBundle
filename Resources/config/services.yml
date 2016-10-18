@@ -1,0 +1,6 @@
+services:
+    hwi_oauth.user.provider.entity:
+        class: HWI\Bundle\OAuthBundle\Security\Core\User\OAuthUserProvider
+    obogdan.oauth_user_provider:
+        class: Obogdan\OAuthUserBundle\Auth\OAuthProvider
+        arguments: ['@session', '@doctrine', '@service_container']
